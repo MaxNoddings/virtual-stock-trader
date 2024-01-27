@@ -1,0 +1,252 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header {
+    display: flex;
+    width: 95vw;
+    height: 7vh;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.title-search {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+#title {
+    font-family: 'Gabarito', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+#title:hover {
+    cursor: pointer;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+#search-bar {
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.2s ease;
+    border: 1.7px solid rgb(188, 188, 188);
+    padding: 8px;
+    padding-left: 20px;
+    width: 300px;
+    border-radius: 10px;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-weight: 400;
+    color: rgb(183, 183, 183);
+}
+
+#search-bar:hover {
+    background-color: rgb(221, 221, 221);
+    cursor: text;
+}
+
+.login-signup {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-family: 'Gabarito', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.column-header {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-family: 'Gabarito', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+#add-stock {
+    background-color: black;
+    padding: 10px;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+
+#add-stock:hover {
+    background-color: rgb(0, 207, 207);
+}
+
+#login {
+    color: black;
+    text-decoration: none;
+}
+
+#login:hover {
+    cursor: pointer;
+    color: rgb(0, 207, 207);
+}
+
+#login:active {
+    cursor: pointer;
+    color: rgb(0, 207, 207);
+}
+
+#page-title {
+    font-family: 'Gabarito', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    align-items: left;
+}
+
+.content {
+    display: flex;
+    gap: 15px;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.content#my-portfolio {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 70%;
+    justify-content: space-between;
+}
+
+#chart-area {
+    width: 900px;
+    height: 500px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#stocks {
+    width: 400px;
+    height: 700px;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+.stock-table {
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 1em;
+}
+
+.stock-table td {
+    text-align: center;
+    padding: 8px;
+}
+
+.stock-table th {
+    text-align: center;
+    padding: 8px;
+    border-left: 1px solid black;
+}
+
+.right-column {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ticker-table {
+    display: flex;
+    align-items: center;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 40px;
+    text-decoration: none;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.left-column {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ticker-table td {
+    padding: 8px;
+}
+
+.ticker-table a {
+    color: black;
+    text-decoration: none;
+}
+
+table.ticker-table tr td a:hover {
+    color: rgb(21, 255, 0);
+}
+
+.bolded-text {
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.price {
+    color: rgb(0, 218, 0);
+}
+
+.stock-info {
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-weight: 400;
+    font-size: 2em;
+    width: 100%;
+}
+
+.stock-info td {
+    padding: 12px;
+}
+
+.fit-width {
+    max-height: 300px;
+    max-width: 100%;
+    width: auto;
+    display: block; 
+    margin: 0 auto; 
+}
+
+.button {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    width: 80px;
+}
+
+.button:hover {
+    background-color: rgb(0, 207, 207);
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    font-family: 'Gabarito', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding: 50px;
+}
+
+.footer-links {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-links:hover {
+    cursor: pointer;
+    color: rgb(0, 207, 207);
+}
